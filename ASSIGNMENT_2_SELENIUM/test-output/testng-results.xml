@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<br> <a title="Screenshot" href="C:\Users\Gia Hy\eclipse-workspace\ASSIGNMENT_2_SELENIUM\.\Screenshots\funixExample4.png" ><img alt='funixExample4.png' src='.\Screenshots\funixExample4.png' height= '243' width='418'></a><br>]]>
+      <![CDATA[<br> <a title="Screenshot" href="C:\Users\Gia Hy\git\repository\ASSIGNMENT_2_SELENIUM\.\Screenshots\funixExample4.png" ><img alt='funixExample4.png' src='.\Screenshots\funixExample4.png' height= '243' width='418'></a><br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-14T15:47:25 ICT" name="Suite" finished-at="2023-07-14T15:49:02 ICT" duration-ms="96461">
+  <suite started-at="2023-07-27T17:26:55 ICT" name="Default suite" finished-at="2023-07-27T17:27:51 ICT" duration-ms="56047">
     <groups>
     </groups>
-    <test started-at="2023-07-14T15:47:25 ICT" name="Test" finished-at="2023-07-14T15:49:02 ICT" duration-ms="96461">
+    <test started-at="2023-07-27T17:26:55 ICT" name="Default test" finished-at="2023-07-27T17:27:51 ICT" duration-ms="56047">
       <class name="com.automation.testcase.TC_LoginTest">
-        <test-method is-config="true" signature="initDriverInstance()[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:47:25 ICT" name="initDriverInstance" finished-at="2023-07-14T15:47:26 ICT" duration-ms="1335" status="PASS">
+        <test-method is-config="true" signature="initDriverInstance()[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:26:55 ICT" name="initDriverInstance" finished-at="2023-07-27T17:26:56 ICT" duration-ms="1321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriverInstance -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:47:27 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:47:42 ICT" duration-ms="15126" status="PASS">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:26:56 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:04 ICT" duration-ms="7160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,18 +30,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:47:42 ICT" name="takeScreenshot" finished-at="2023-07-14T15:47:42 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:04 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:04 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:47:42 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:47:55 ICT" duration-ms="13102" status="PASS">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:04 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:09 ICT" duration-ms="5024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,18 +57,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:47:55 ICT" name="takeScreenshot" finished-at="2023-07-14T15:47:55 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:09 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:09 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:47:55 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:48:08 ICT" duration-ms="12541" status="PASS">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:09 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:14 ICT" duration-ms="4957" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,18 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:08 ICT" name="takeScreenshot" finished-at="2023-07-14T15:48:08 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshot -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:08 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:48:17 ICT" duration-ms="8939" status="FAIL">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:14 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:32 ICT" duration-ms="18267" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -108,44 +97,15 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/logout']"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-JPCF5TS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\GIAHY~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:27385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640ede7832f562f1d1cefa501ba7ae7a
-*** Element info: {Using=xpath, value=//a[@href='/logout']}]]>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='/logout'] (tried for 15 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/logout']"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-JPCF5TS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\GIAHY~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:27385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640ede7832f562f1d1cefa501ba7ae7a
-*** Element info: {Using=xpath, value=//a[@href='/logout']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.automation.testcase.TC_LoginTest.TC01_LoginFirstAccount(TC_LoginTest.java:42)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='/logout'] (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.automation.testcase.TC_LoginTest.TC01_LoginFirstAccount(TC_LoginTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -174,27 +134,65 @@ at org.testng.TestNG.run(TestNG.java:1082)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/logout']"}
+  (Session info: chrome=114.0.5735.248)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JPCF5TS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.248, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\GIAHY~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:40174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8733dbad86f8499e38fca9d59562d2fa
+*** Element info: {Using=xpath, value=//a[@href='/logout']}
+at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:17 ICT" name="takeScreenshot" finished-at="2023-07-14T15:48:19 ICT" duration-ms="2181" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:14 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:14 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=FAILURE method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:32 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:32 ICT" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=FAILURE method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<br> <a title="Screenshot" href="C:\Users\Gia Hy\eclipse-workspace\ASSIGNMENT_2_SELENIUM\.\Screenshots\funixExample4.png" ><img alt='funixExample4.png' src='.\Screenshots\funixExample4.png' height= '243' width='418'></a><br>]]>
+              <![CDATA[<br> <a title="Screenshot" href="C:\Users\Gia Hy\git\repository\ASSIGNMENT_2_SELENIUM\.\Screenshots\funixExample4.png" ><img alt='funixExample4.png' src='.\Screenshots\funixExample4.png' height= '243' width='418'></a><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:19 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:48:34 ICT" duration-ms="15252" status="PASS">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:32 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:39 ICT" duration-ms="6666" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,18 +208,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:34 ICT" name="takeScreenshot" finished-at="2023-07-14T15:48:34 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:39 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:39 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:34 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:48:48 ICT" duration-ms="13756" status="PASS">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:39 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:45 ICT" duration-ms="5718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,7 +235,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:48 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-14T15:49:01 ICT" duration-ms="13689" status="PASS">
+        <test-method signature="TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:45 ICT" name="TC01_LoginFirstAccount" data-provider="Excel" finished-at="2023-07-27T17:27:51 ICT" duration-ms="6186" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,33 +251,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFirstAccount -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:48:48 ICT" name="takeScreenshot" finished-at="2023-07-14T15:48:48 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:45 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:45 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:49:01 ICT" name="takeScreenshot" finished-at="2023-07-14T15:49:01 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:51 ICT" name="takeScreenshot" finished-at="2023-07-27T17:27:51 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=TC_LoginTest.TC01_LoginFirstAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="closeDriverInstance()[pri:0, instance:com.automation.testcase.TC_LoginTest@68e5eea7]" started-at="2023-07-14T15:49:01 ICT" name="closeDriverInstance" finished-at="2023-07-14T15:49:02 ICT" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="closeDriverInstance()[pri:0, instance:com.automation.testcase.TC_LoginTest@31304f14]" started-at="2023-07-27T17:27:51 ICT" name="closeDriverInstance" finished-at="2023-07-27T17:27:51 ICT" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverInstance -->
       </class> <!-- com.automation.testcase.TC_LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

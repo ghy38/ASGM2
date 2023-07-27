@@ -17,14 +17,14 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver, 30);
+		this.wait = new WebDriverWait(driver, 15);
 	}
 	
 	public void enterEmail(String email) throws InterruptedException{
 		WebElement inputEmail = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(PropertiesFileUtils.getProperty("login_email"))));
 		
 		inputEmail.sendKeys(email);
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 	
 	public void enterPassword(String password) throws InterruptedException{
@@ -32,7 +32,7 @@ public class LoginPage {
 		
 		inputPassword.sendKeys(password);
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 	
 	public void clickSignIn() throws InterruptedException{
@@ -40,7 +40,7 @@ public class LoginPage {
 		
 		btnSignIn.click();
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 	
 }

@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -29,9 +30,10 @@ public class TC_LoginTest extends DriverInstance {
 		
 		driver.get(URL);
 		
-		WebDriverWait wait = new WebDriverWait(driver,30);
+		WebDriverWait wait = new WebDriverWait(driver,15);
 		
-		WebElement iconSignIn = driver.findElement(By.xpath("//a[@href='/login']"));
+		WebElement iconSignIn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/login']")));
+				
 		iconSignIn.click();
 		
 		LoginPage loginPage = new LoginPage(driver);
@@ -39,11 +41,12 @@ public class TC_LoginTest extends DriverInstance {
 		loginPage.enterPassword(password);
 		loginPage.clickSignIn();
 		
-		WebElement iconSignOut = driver.findElement(By.xpath("//a[@href='/logout']"));
+		WebElement iconSignOut = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='/logout']")));
+
 		Assert.assertEquals(true, iconSignOut.getText().contains("Logout"), "Đăng nhập thất bại!");
 		iconSignOut.click();
 		
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 	
 	@DataProvider(name = "Excel")
@@ -78,7 +81,7 @@ public class TC_LoginTest extends DriverInstance {
 				
 				String filepath = CaptureScreenshot.takeScreenshot(driver, accountName);
 				
-				Thread.sleep(2000);
+				//Thread.sleep(2000);
 
 				CaptureScreenshot.attachScreenshot(filepath);
 			}catch(Exception e) {
