@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T19:20:05 ICT" name="Suite" finished-at="2023-08-01T19:20:31 ICT" duration-ms="26394">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T19:20:05 ICT" name="Test" finished-at="2023-08-01T19:20:31 ICT" duration-ms="26394">
+      <class name="com.automation.testcase.TC02_LoginFunction">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:18 ICT" name="init" finished-at="2023-08-01T19:20:20 ICT" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01_LoginWithValidAccount()[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:20 ICT" name="TC01_LoginWithValidAccount" finished-at="2023-08-01T19:20:26 ICT" duration-ms="6100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginWithValidAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:26 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:26 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_LoginWithValidAccount status=SUCCESS method=TC02_LoginFunction.TC01_LoginWithValidAccount()[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC02_LoginWithInvalidAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:26 ICT" name="TC02_LoginWithInvalidAccount" data-provider="InvalidAccount" finished-at="2023-08-01T19:20:28 ICT" duration-ms="2078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[r4jms152]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdsm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginWithInvalidAccount -->
+        <test-method signature="TC02_LoginWithInvalidAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:28 ICT" name="TC02_LoginWithInvalidAccount" data-provider="InvalidAccount" finished-at="2023-08-01T19:20:30 ICT" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5iey3v38d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginWithInvalidAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:28 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:28 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_LoginWithInvalidAccount status=SUCCESS method=TC02_LoginFunction.TC02_LoginWithInvalidAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC02_LoginWithInvalidAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:30 ICT" name="TC02_LoginWithInvalidAccount" data-provider="InvalidAccount" finished-at="2023-08-01T19:20:31 ICT" duration-ms="1420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mfk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginWithInvalidAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:30 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:30 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_LoginWithInvalidAccount status=SUCCESS method=TC02_LoginFunction.TC02_LoginWithInvalidAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:31 ICT" name="closeDriver" finished-at="2023-08-01T19:20:31 ICT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def]" started-at="2023-08-01T19:20:31 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:31 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_LoginWithInvalidAccount status=SUCCESS method=TC02_LoginFunction.TC02_LoginWithInvalidAccount(java.lang.String,java.lang.String)[pri:0, instance:com.automation.testcase.TC02_LoginFunction@55141def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- com.automation.testcase.TC02_LoginFunction -->
+      <class name="com.automation.testcase.TC01_RegisterFunction">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:05 ICT" name="init" finished-at="2023-08-01T19:20:07 ICT" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01_RegisterWithValidAccount()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:07 ICT" name="TC01_RegisterWithValidAccount" finished-at="2023-08-01T19:20:10 ICT" duration-ms="2795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_RegisterWithValidAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:10 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:10 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_RegisterWithValidAccount status=SUCCESS method=TC01_RegisterFunction.TC01_RegisterWithValidAccount()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC02_RegisterWithExistUsername()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:10 ICT" name="TC02_RegisterWithExistUsername" finished-at="2023-08-01T19:20:12 ICT" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_RegisterWithExistUsername -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:12 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:12 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_RegisterWithExistUsername status=SUCCESS method=TC01_RegisterFunction.TC02_RegisterWithExistUsername()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:12 ICT" name="TC03_RegisterWithInvalidUsername" data-provider="InvalidUsername" finished-at="2023-08-01T19:20:13 ICT" duration-ms="828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RegisterWithInvalidUsername -->
+        <test-method signature="TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:13 ICT" name="TC03_RegisterWithInvalidUsername" data-provider="InvalidUsername" finished-at="2023-08-01T19:20:13 ICT" duration-ms="758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaabbbbbcc12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RegisterWithInvalidUsername -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:13 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:13 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_RegisterWithInvalidUsername status=SUCCESS method=TC01_RegisterFunction.TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:13 ICT" name="TC03_RegisterWithInvalidUsername" data-provider="InvalidUsername" finished-at="2023-08-01T19:20:14 ICT" duration-ms="977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RegisterWithInvalidUsername -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:13 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:13 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_RegisterWithInvalidUsername status=SUCCESS method=TC01_RegisterFunction.TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:14 ICT" name="TC03_RegisterWithInvalidUsername" data-provider="InvalidUsername" finished-at="2023-08-01T19:20:15 ICT" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RegisterWithInvalidUsername -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:14 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:14 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_RegisterWithInvalidUsername status=SUCCESS method=TC01_RegisterFunction.TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:15 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:15 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_RegisterWithInvalidUsername status=SUCCESS method=TC01_RegisterFunction.TC03_RegisterWithInvalidUsername(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC04_RegisterWithInvalidPassword(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:15 ICT" name="TC04_RegisterWithInvalidPassword" data-provider="InvalidPassword" finished-at="2023-08-01T19:20:16 ICT" duration-ms="896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_RegisterWithInvalidPassword -->
+        <test-method signature="TC04_RegisterWithInvalidPassword(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:16 ICT" name="TC04_RegisterWithInvalidPassword" data-provider="InvalidPassword" finished-at="2023-08-01T19:20:17 ICT" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345678fnkelfnel12k3klnk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_RegisterWithInvalidPassword -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:16 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:16 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_RegisterWithInvalidPassword status=SUCCESS method=TC01_RegisterFunction.TC04_RegisterWithInvalidPassword(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:17 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:17 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_RegisterWithInvalidPassword status=SUCCESS method=TC01_RegisterFunction.TC04_RegisterWithInvalidPassword(java.lang.String)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC05_RegisterWithInvalidRePassword()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:17 ICT" name="TC05_RegisterWithInvalidRePassword" finished-at="2023-08-01T19:20:18 ICT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_RegisterWithInvalidRePassword -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:18 ICT" name="takeScreenshot" finished-at="2023-08-01T19:20:18 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_RegisterWithInvalidRePassword status=SUCCESS method=TC01_RegisterFunction.TC05_RegisterWithInvalidRePassword()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.automation.testcase.TC01_RegisterFunction@4d5d943d]" started-at="2023-08-01T19:20:18 ICT" name="closeDriver" finished-at="2023-08-01T19:20:18 ICT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.automation.testcase.TC01_RegisterFunction -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
